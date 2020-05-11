@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dots &amp; Dashes</string>
+    <string name="dots_dashes"><![CDATA[Dots & Dashes]]></string>
+    <string name="player_2">| = Player 2</string>
+    <string name="player_1">| = Player 1</string>
+    <string name="winner">Winner :</string>
+    <string name="undo">Undo</string>
+    <string name="player_3">| = Player 3</string>
+    <string name="_3_players">3 Players</string>
+    <string name="_2_players">2 Players</string>
+    <string name="choose_mode">Choose Mode :</string>
+    <string name="new_game">New Game</string>
+    <string name="dots1_dashes"><![CDATA[Dots & Dashes]]></string>
+    <string name="v_s_device">V/S Device</string>
+    <string name="choose_grid_size">Choose Grid Size</string>
+    <string name="_3_x_3">3 X 3</string>
+    <string name="_4_x_4">4 X 4</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="hard">Hard</string>
+    <string name="easy">Easy</string>
+    <string name="custom_grid_enter_below">Custom Grid(Enter below)</string>
+    <string name="enter_number_of_columns">Enter number of Columns</string>
+    <string name="enter_number_of_rows">Enter number of Rows</string>
+    <string name="enter_grid_size">Enter Grid Size</string>
+    <string name="no_of_cols_2_10">No. of cols. (2-10)</string>
+    <string name="no_of_rows_2_10">No. of rows (2-10)</string>
+</resources>
