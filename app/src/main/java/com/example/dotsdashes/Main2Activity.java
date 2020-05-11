@@ -15,6 +15,7 @@ public class Main2Activity extends AppCompatActivity {
     lev3 l;
     Button btn;
     TextView play3,play1,play2;
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,7 @@ public class Main2Activity extends AppCompatActivity {
         if(players==3){
             play3.setVisibility(View.VISIBLE);
         }else if(players==1){
-            play2.setVisibility(View.INVISIBLE);
+            play2.setText("| = Device");
         }
 
         lev = findViewById(R.id.lev1);

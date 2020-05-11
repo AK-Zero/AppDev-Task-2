@@ -120,7 +120,7 @@ public class lev1 extends View {
                     player=1;
                     box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -133,7 +133,7 @@ public class lev1 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -146,7 +146,7 @@ public class lev1 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -159,7 +159,7 @@ public class lev1 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -171,7 +171,7 @@ public class lev1 extends View {
                 sc1++;
                 tim[0] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -181,7 +181,7 @@ public class lev1 extends View {
                 sc1++;
                 tim[1] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -191,7 +191,7 @@ public class lev1 extends View {
                 sc1++;
                 tim[2] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -201,7 +201,7 @@ public class lev1 extends View {
                 sc1++;
                 tim[3] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -537,10 +537,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(cp+25 , cp+25 , 2*cp-25 , 2*cp-25 , pa1);
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[1]!=0 && lh[3]!=0 && lv[1]!=0 && lv[2]!=0 && tim[1]==0 && pr==0){
@@ -599,9 +604,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(2*cp+25 , cp+25 , 3*cp-25 , 2*cp-25 , pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            };
         }
         if(lh[2]!=0 && lh[4]!=0 && lv[3]!=0 && lv[4]!=0 && tim[2]==0 && pr==0){
             if(nop==1){
@@ -659,9 +670,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(cp+25 , 2*cp+25 , 2*cp-25 , 3*cp-25 ,pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[3]!=0 && lh[5]!=0 && lv[5]!=0 && lv[4]!=0 && tim[3]==0 && pr==0){
             if(nop==1){
@@ -719,9 +736,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(2*cp+25 , 2*cp+25 , 3*cp-25 ,3*cp-25 ,pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
 
@@ -766,9 +789,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(cp+25 , cp+25 , 2*cp-25 , 2*cp-25 , pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
 
         }
 
@@ -810,9 +839,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(2*cp+25 , cp+25 , 3*cp-25 , 2*cp-25 , pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[2]!=0 && lh[4]!=0 && lv[3]!=0 && lv[4]!=0 && tim[2]==0 && pr!=0 &&pr!=3){
             if(nop==1){
@@ -852,9 +887,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(cp+25 , 2*cp+25 , 2*cp-25 , 3*cp-25 ,pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[3]!=0 && lh[5]!=0 && lv[5]!=0 && lv[4]!=0 && tim[3]==0 && pr!=0 &&pr!=4){
             if(nop==1){
@@ -894,9 +935,15 @@ public class lev1 extends View {
                 }
             }
             canvas.drawRect(2*cp+25 , 2*cp+25 , 3*cp-25 ,3*cp-25 ,pa1);
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
 
@@ -2367,9 +2414,15 @@ public class lev1 extends View {
                 }
             }
         }
-        p1.setText("Player 1 : "+sc1);
-        p2.setText("Player 2 : "+sc2);
-        p3.setText("Player 3 : "+sc3);
+        if(nop!=1) {
+            p1.setText("Player 1 : " + sc1);
+            p2.setText("Player 2 : " + sc2);
+            p3.setText("Player 3 : " + sc3);
+        }else{
+            p1.setText("Player 1 : " + sc1);
+            p2.setText("Device : " + sc2);
+            p3.setText("Player 3 : " + sc3);
+        }
     }
 
     public void setnop(int a){

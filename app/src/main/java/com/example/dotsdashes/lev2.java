@@ -117,7 +117,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -130,7 +130,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -143,7 +143,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -156,7 +156,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -169,7 +169,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -182,7 +182,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -195,7 +195,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -208,7 +208,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -221,7 +221,7 @@ public class lev2 extends View {
                 player=1;
                 box.start();
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -234,7 +234,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[0] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -244,7 +244,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[1] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -254,7 +254,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[2] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -264,7 +264,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[3] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
                 }
         }
@@ -274,7 +274,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[4] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -284,7 +284,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[5] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -294,7 +294,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[6] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -304,7 +304,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[7] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -314,7 +314,7 @@ public class lev2 extends View {
                 sc1++;
                 tim[8] = 1;
                 p1.setText("Player 1 : "+sc1);
-                p2.setText("Player 2 : "+sc2);
+                p2.setText("Device : "+sc2);
                 p3.setText("Player 3 : "+sc3);
             }
         }
@@ -858,9 +858,15 @@ public class lev2 extends View {
                 }
             }
 
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[1]!=0 && lh[4]!=0 && lv[1]!=0 && lv[2]!=0 && tim[1]==0 && pr==0){
             if(nop==1){
@@ -917,10 +923,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[2]!=0 && lh[5]!=0 && lv[2]!=0 && lv[3]!=0 && tim[2]==0 && pr==0){
             if(nop==1){
@@ -977,10 +988,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[3]!=0 && lh[6]!=0 && lv[5]!=0 && lv[4]!=0 && tim[3]==0 && pr==0){
             if(nop==1){
@@ -1037,10 +1053,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[4]!=0 && lh[7]!=0 && lv[5]!=0 && lv[6]!=0 && tim[4]==0 && pr==0){
             if(nop==1){
@@ -1097,10 +1118,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[5]!=0 && lh[8]!=0 && lv[6]!=0 && lv[7]!=0 && tim[5]==0 && pr==0){
@@ -1158,10 +1184,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[6]!=0 && lh[9]!=0 && lv[8]!=0 && lv[9]!=0 && tim[6]==0 && pr==0){
@@ -1219,10 +1250,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[7]!=0 && lh[10]!=0 && lv[9]!=0 && lv[10]!=0 && tim[7]==0 && pr==0){
@@ -1280,10 +1316,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[8]!=0 && lh[11]!=0 && lv[10]!=0 && lv[11]!=0 && tim[8]==0 && pr==0){
@@ -1341,10 +1382,15 @@ public class lev2 extends View {
                     box.start();
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
 
@@ -1385,10 +1431,15 @@ public class lev2 extends View {
                     tim[0]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[1]!=0 && lh[4]!=0 && lv[1]!=0 && lv[2]!=0 && tim[1]==0 && pr!=0 && pr!=2){
@@ -1428,10 +1479,15 @@ public class lev2 extends View {
                     tim[1]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[2]!=0 && lh[5]!=0 && lv[2]!=0 && lv[3]!=0 && tim[2]==0 && pr!=0 && pr!=3){
@@ -1471,10 +1527,15 @@ public class lev2 extends View {
                     tim[2]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
         if(lh[3]!=0 && lh[6]!=0 && lv[5]!=0 && lv[4]!=0 && tim[3]==0 && pr!=0 && pr!=4){
             if(nop==1){
@@ -1513,10 +1574,15 @@ public class lev2 extends View {
                     tim[3]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[4]!=0 && lh[7]!=0 && lv[5]!=0 && lv[6]!=0 && tim[4]==0 && pr!=0 && pr!=5){
@@ -1556,10 +1622,15 @@ public class lev2 extends View {
                     tim[4]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[5]!=0 && lh[8]!=0 && lv[6]!=0 && lv[7]!=0 && tim[5]==0 && pr!=0 && pr!=6){
@@ -1599,10 +1670,15 @@ public class lev2 extends View {
                     tim[5]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[6]!=0 && lh[9]!=0 && lv[8]!=0 && lv[9]!=0 && tim[6]==0 && pr!=0 && pr!=7){
@@ -1642,10 +1718,15 @@ public class lev2 extends View {
                     tim[6]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[7]!=0 && lh[10]!=0 && lv[9]!=0 && lv[10]!=0 && tim[7]==0 && pr!=0 && pr!=8){
@@ -1685,10 +1766,15 @@ public class lev2 extends View {
                     tim[7]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(lh[8]!=0 && lh[11]!=0 && lv[10]!=0 && lv[11]!=0 && tim[8]==0 && pr!=0 && pr!=9){
@@ -1728,10 +1814,15 @@ public class lev2 extends View {
                     tim[8]=3;
                 }
             }
-
-            p1.setText("Player 1 : "+sc1);
-            p2.setText("Player 2 : "+sc2);
-            p3.setText("Player 3 : "+sc3);
+            if(nop!=1) {
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Player 2 : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }else{
+                p1.setText("Player 1 : " + sc1);
+                p2.setText("Device : " + sc2);
+                p3.setText("Player 3 : " + sc3);
+            }
         }
 
         if(tim[0]==1){
@@ -4541,9 +4632,15 @@ public class lev2 extends View {
                 }
             }
         }
-        p1.setText("Player 1 : "+sc1);
-        p2.setText("Player 2 : "+sc2);
-        p3.setText("Player 3 : "+sc3);
+        if(nop!=1) {
+            p1.setText("Player 1 : " + sc1);
+            p2.setText("Player 2 : " + sc2);
+            p3.setText("Player 3 : " + sc3);
+        }else{
+            p1.setText("Player 1 : " + sc1);
+            p2.setText("Device : " + sc2);
+            p3.setText("Player 3 : " + sc3);
+        }
     }
 
     public void setnop(int a){
