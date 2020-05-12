@@ -25,12 +25,12 @@ public class lev2 extends View {
     TextView p1,p2,p3;
     private Paint mcircle, mline, mline1, mline2;
     public int stat = 0, eng = 0, player = 1, sc1 = 0, sc2 = 0, sc3 = 0, pr = 0, nop = 1,diff=1;
-    static int  lc = 0;
+    int  lc = 0;
     float l1x, l1y, l2x, l2y;
     int[] lh = new int[12];
     int[] lv = new int[12];
     int[] l = new int[24];
-    int[] lcount = new int[24];
+    int[] lcount = new int[40];
     private int[] tim = new int[9];
     private Paint pa1;
     Vibrator vibrator;
@@ -92,6 +92,9 @@ public class lev2 extends View {
         p1 = (TextView)((Activity)context).findViewById(R.id.textView5);
         p2 = (TextView)((Activity)context).findViewById(R.id.textView4);
         p3 = (TextView)((Activity)context).findViewById(R.id.textView);
+        p1.setText("Player 1 : "+sc1);
+        p2.setText("Player 2 : "+sc2);
+        p3.setText("Player 3 : "+sc3);
     }
 
     @SuppressLint("SetTextI18n")

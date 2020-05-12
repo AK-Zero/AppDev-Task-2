@@ -34,11 +34,11 @@ public class lev1 extends View {
     private Paint mcircle , mline , mline1 , mline2;
     public int stat=0,eng=0,player=1,sc1=0,sc2=0,sc3=0,pr=0, nop=1 , diff=1;
     float l1x , l1y , l2x , l2y;
-    static int  lc = 0;
+    int  lc = 0;
     int[] lh = new int[6];
     int[] lv = new int[6];
     int[] l = new int[12];
-    int[] lcount = new int[12];
+    int[] lcount = new int[20];
     private int[] tim = new int[4];
     private Paint pa1;
     Vibrator vibrator;
